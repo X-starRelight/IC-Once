@@ -1,5 +1,7 @@
 # Improved Commands - Once
 
+![Logo](./icon.png)
+
 Improved Commands - Once（IC-Once）是一个 Fabric Mod，在 Minecraft 中实现"某条命令只执行一次"：为每条一次性命令指定唯一标识，未执行过才运行并把记录写入世界存档；命令挂载在 IC-Root 统一入口 `/ic run once` 下，不污染全局命令空间，返回值可供命令方块、函数、自动化读取。
 
 ## 基本信息
