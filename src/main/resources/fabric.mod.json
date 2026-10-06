@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "ic-once",
+	"version": "${version}",
+	"name": "Improved Commands - Once",
+	"description": "在 Minecraft 中实现\"某条命令只执行一次\"的功能",
+	"authors": [
+		"TT23XR Studio"
+	],
+	"contact": {},
+	"license": "GNU GPL v3.0",
+	"icon": "assets/ic-once/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.tt23xrstudio.ICOnceMod"
+		],
+		"client": [
+			"com.tt23xrstudio.ICOnce.client.ICOnceClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"ic-root": ">=0.1.0"
+	}
+}
